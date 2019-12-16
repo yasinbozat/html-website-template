@@ -1,2 +1,2 @@
 # yasinbozat.com
-This is www.yasinbozat.com website template. 
+This is yasinbozat.com website template. 
