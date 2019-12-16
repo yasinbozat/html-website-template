@@ -1,0 +1,75 @@
+.tual {
+    width: 960px;
+    margin:0 auto;
+    
+    }
+
+.menu { 
+    padding-top: 24px;
+    width: 300px;
+    height: 600px;
+    float:left; background-color: white;  
+    }
+
+.content{ width: 660px; 
+    height: 600px; 
+    float:left; 
+    background-color: gold; 
+    }
+
+div{
+    text-align: center;
+    font-family: oswald;
+    
+}
+
+p{
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 1%;
+    font-weight: 20;
+    text-align: justify;
+}
+
+.logo {
+    
+    
+    cursor: pointer;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-size: 200%;
+    
+}
+.logo:hover {
+
+    color: rgb(100, 100, 100);
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(75, 75, 75);
+    font-weight: 100;
+}
+.footer {
+    text-align: right;
+    background-color:rgba(255, 255, 255, 0.7);
+    
+}
+.footer a{
+    float: inline-end;
+    text-decoration: none;
+    margin-right: 5px;
+    color: black;
+background-color:rgba(0, 0, 0, 0);
+    
+}
+
+.footer a:hover{
+    color:rgb(75, 75, 75);
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(220,220,220)
+}
