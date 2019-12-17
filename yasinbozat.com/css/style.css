@@ -28,7 +28,7 @@ a:hover {
     width: 760px; 
     height: auto; 
     float: left;
-    background-color: rgb(115, 85, 140); 
+    background-color: white; 
     color: white;
     margin-top: 20px
     }
@@ -49,10 +49,11 @@ a:hover {
     font-size: 25px;
     font-weight: 400;
     cursor: pointer;
+    background-color: rgb(100, 80, 130);
 }
 .content-a:hover{
     color: rgb(130 ,110,140); 
-    
+    background-color: white;
 }
 div{
     text-align: left;
@@ -90,7 +91,7 @@ body{
 ul li,ul li a{
     height: 22px;
     width: 150px;
-    color: black;
+    color: rgb(80, 60, 100);;
     list-style: none;
     text-transform: uppercase;
     font-family: oswald;
