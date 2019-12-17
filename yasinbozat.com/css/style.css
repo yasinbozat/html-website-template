@@ -8,26 +8,29 @@ a:hover {
     color: rgb(112, 112, 112);
 }
 
-.main {
-    width: 1060px;
-    margin:0 auto;
-    
-    
+.main ,div{
+    width: auto;
+
+    position: relative;
+    margin: auto;
     }
 
 .menu { 
     padding-top: 24px;
-    width: 300px;
-    height: 600px;
-    float:left; background-color: white;  
+    width: auto;
+    float: left;
+    background-color: white;  
+    margin-left: 20px;
+    margin-top: 20px;
     }
 
 .content-bg{ 
     width: 760px; 
-    height: 600px; 
-    float:left; 
-    background-color: rgb(113, 83, 136); 
+    height: auto; 
+    float: left;
+    background-color: rgb(115, 85, 140); 
     color: white;
+    margin-top: 20px
     }
 
 .content {
@@ -36,7 +39,8 @@ a:hover {
     margin: 50px;
     padding: 30px ;
     margin-top: 20px;
-    background-color:rgb(80, 60, 100) ;
+    background-color:rgb(80, 60, 100);
+    
     
 }
 
@@ -44,9 +48,10 @@ a:hover {
     color: white;
     font-size: 25px;
     font-weight: 400;
+    cursor: pointer;
 }
 .content-a:hover{
-    color:rgb(80, 60, 100);
+    color: rgb(130 ,110,140); 
     
 }
 div{
@@ -60,7 +65,7 @@ div{
     
     cursor: pointer;
     text-transform: uppercase;
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 200%;
     
@@ -73,28 +78,11 @@ div{
 .title {
     
     text-transform: uppercase;
-    color: rgb(112, 112, 112);
+    color:white;
     font-weight: 100;
 }
-.footer {
-    text-align: right;
-    background-color:rgba(113, 83, 136, 0.5);
-    
-}
-.footer a{
-    float: inline-end;
-    text-decoration: none;
-    margin-right: 5px;
-    color: black;
-    background-color:rgba(0, 0, 0, 0);
-    font-weight: 300;
-    
-}
 
-.footer a:hover{
-    color:rgb(75, 75, 75);
-    text-decoration: underline;
-}
+
 body{
     background-color: rgb(220,220,220)
 }
@@ -120,4 +108,20 @@ ul li a:hover{
 
 h3 {
     font-weight: 400;
+}
+
+hr {
+
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid rgb(80,60,100);
+}
+
+#footer, #footer a{
+    margin-top: -10px;
+    background-color: rgba(80,60,100);
+    width: auto;
+    height: 25px;
+    text-align: right;
+    padding-right: 5px;
+    color: white;
 }
