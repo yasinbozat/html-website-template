@@ -1,6 +1,10 @@
-.tual {
+@import  'https://fonts.googleapis.com/css?family=Oswald:400,300&subset=latin,latin-ext';
+
+
+.main {
     width: 960px;
     margin:0 auto;
+    
     
     }
 
@@ -15,12 +19,12 @@
     height: 600px; 
     float:left; 
     background-color: gold; 
+    
     }
 
 div{
-    text-align: center;
-    font-family: oswald;
-    
+    text-align: left;
+    font-family: oswald; 
 }
 
 p{
@@ -29,6 +33,7 @@ p{
     padding: 1%;
     font-weight: 20;
     text-align: justify;
+    font-family: oswald;
 }
 
 .logo {
@@ -47,14 +52,14 @@ p{
 }
 
 .title {
-    text-align: center;
+    
     text-transform: uppercase;
-    color: rgb(75, 75, 75);
+    color: rgb(112, 112, 112);
     font-weight: 100;
 }
 .footer {
     text-align: right;
-    background-color:rgba(255, 255, 255, 0.7);
+    background-color:rgba(200, 170, 0, 0.5);
     
 }
 .footer a{
@@ -62,7 +67,8 @@ p{
     text-decoration: none;
     margin-right: 5px;
     color: black;
-background-color:rgba(0, 0, 0, 0);
+    background-color:rgba(0, 0, 0, 0);
+    font-weight: 300;
     
 }
 
@@ -72,4 +78,23 @@ background-color:rgba(0, 0, 0, 0);
 }
 body{
     background-color: rgb(220,220,220)
+}
+
+ul li,ul li a{
+    height: 22px;
+    width: 150px;
+    color: black;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: oswald;
+    font-weight: 100;
+    padding-left: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    padding-top: 5px;
+    
+    
+}
+ul li a:hover{
+    color: rgb(112,112,112);
 }
